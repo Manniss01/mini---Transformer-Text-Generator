@@ -68,7 +68,7 @@ Learning rate  	       0.001
 - Numpy and standard Python libraries
 
 # Contact
-Questions, feedback, or collaborations? Feel free to open an issue or reach out via [your email].
+Questions, feedback, or collaborations? Feel free to open an issue or reach out via manishdarji.ai@gmail.com.
 
 # Acknowledgements
 Inspired by Andrej Karpathy’s minGPT, which provided foundational guidance on building Transformers from scratch.
