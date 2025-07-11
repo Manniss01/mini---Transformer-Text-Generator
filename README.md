@@ -29,6 +29,17 @@ This repository contains a minimalist Transformer implementation for autoregress
 
 ---
 
+## 🗂️ Project Structure
+mini-transformer-text-generator/
+├── app.py # Gradio web app for text generation
+├── config.py # Configuration and hyperparameters
+├── model.py # Transformer model implementation
+├── train.py # Training script
+├── utils.py # Utilities for data processing and evaluation
+├── requirements.txt # Python dependencies
+├── input.txt # Training data (Shakespeare text)
+└── README.md # Project documentation
+
 ## ⚙️ Model Configuration
 
 | Parameter           | Value |
@@ -53,6 +64,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 python app.py
+```
 
 
 # Technologies
@@ -60,6 +72,11 @@ python app.py
 - PyTorch for deep learning
 - Gradio for web interface and demo
 - Numpy and standard Python libraries
+
+## About Unicodax
+This project is developed and maintained by Unicodax — an AI-first company focused on building intelligent solutions using modern machine learning and NLP technologies.
+
+Visit us: 🌐 www.unicodax.com
 
 # Contact
 Questions, feedback, or collaborations? Feel free to open an issue or reach out via manishdarji.ai@gmail.com.
