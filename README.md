@@ -40,7 +40,7 @@ pip install -r requirements.txt
 run python app.py
 ```
 ## Project Structure
-
+graphql
 mini-transformer-text-generator/
 ├── app.py             # Gradio web app for text generation
 ├── config.py          # Configuration and hyperparameters
