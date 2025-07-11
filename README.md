@@ -30,15 +30,18 @@ This repository contains a minimalist Transformer implementation for autoregress
 ---
 
 ## 🗂️ Project Structure
-mini-transformer-text-generator/
-├── app.py # Gradio web app for text generation
-├── config.py # Configuration and hyperparameters
-├── model.py # Transformer model implementation
-├── train.py # Training script
-├── utils.py # Utilities for data processing and evaluation
-├── requirements.txt # Python dependencies
-├── input.txt # Training data (Shakespeare text)
-└── README.md # Project documentation
+
+| File/Folder         | Description                                      |
+|---------------------|--------------------------------------------------|
+| `app.py`            | Gradio web app for text generation              |
+| `config.py`         | Configuration and hyperparameters               |
+| `model.py`          | Transformer model implementation                |
+| `train.py`          | Training script                                 |
+| `utils.py`          | Utilities for data processing and evaluation    |
+| `requirements.txt`  | Python dependencies                             |
+| `input.txt`         | Training data (Shakespeare text)                |
+| `README.md`         | Project documentation                           |
+
 
 ## ⚙️ Model Configuration
 
