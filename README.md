@@ -36,3 +36,41 @@ cd mini-transformer-text-generator
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+run python app.py
+```
+## Project Structure
+
+mini-transformer-text-generator/
+├── app.py             # Gradio web app for text generation
+├── config.py          # Configuration and hyperparameters
+├── model.py           # Transformer model implementation
+├── train.py           # Training script
+├── utils.py           # Utilities for data processing and evaluation
+├── requirements.txt   # Python dependencies
+├── input.txt          # Training data (Shakespeare text)
+└── README.md          # Project documentation
+
+# Model Configuration
+Parameter	             Value
+Batch size	           32
+Context length	       128
+Embedding size	       128
+Transformer layers	   4
+Attention heads	       4
+Dropout	               0.1
+Learning rate  	       0.001
+
+# Technologies
+- Python 3.8+
+- PyTorch for deep learning
+- Gradio for web interface and demo
+- Numpy and standard Python libraries
+
+# Contact
+Questions, feedback, or collaborations? Feel free to open an issue or reach out via [your email].
+
+# Acknowledgements
+Inspired by Andrej Karpathy’s minGPT, which provided foundational guidance on building Transformers from scratch.
+
+
